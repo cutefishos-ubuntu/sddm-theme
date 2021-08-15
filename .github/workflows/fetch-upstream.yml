@@ -1,13 +1,13 @@
-name: Fetch upstream
+name: CI
 
 on: 
   schedule:
-    - cron: "*/20 * * * *"
+    - cron: "15 14 * * *"
 jobs:
   build:
 
     runs-on: ubuntu-latest
-    
+
     steps:
     - uses: actions/checkout@v1
     - name: Fetch upstream
