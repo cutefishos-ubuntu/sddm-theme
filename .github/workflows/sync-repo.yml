@@ -1,8 +1,8 @@
-name: CI
+name: sync-repo
 
 on: 
   schedule:
-    - cron: "00 13 * * *"
+    - cron: "10 13 * * *"
 jobs:
   build:
 
