@@ -17,4 +17,4 @@ jobs:
         upstream_repo: https://github.com/cutefishos/sddm-theme.git
         upstream_branch: main
         local_branch: main
-	      github_token: ${{ secrets.GITHUB_TOKEN }}
+	github_token: ${{ secrets.GITHUB_TOKEN }}
