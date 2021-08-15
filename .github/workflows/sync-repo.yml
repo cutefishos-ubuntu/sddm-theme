@@ -3,7 +3,6 @@ name: sync-repo
 on: 
   schedule:
     - cron: "10 13 * * *"
-    workflow_dispatch: # on button click 
 jobs:
   build:
 
