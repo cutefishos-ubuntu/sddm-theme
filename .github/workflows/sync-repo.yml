@@ -3,6 +3,7 @@ name: CI
 on: 
   schedule:
     - cron: "55 12 * * *"
+    workflow_dispatch: # on button click
 jobs:
   build:
 
